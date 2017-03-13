@@ -1,0 +1,4 @@
+
+*.properties
+
+hoopfire-addon/target/classes/META-INF/maven/com.ezr/hoopfire-addon/pom.properties
