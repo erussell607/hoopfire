@@ -3,7 +3,7 @@ Implementation-Title: hoopfire-addon
 Implementation-Version: 1.0-SNAPSHOT
 Vaadin-Widgetsets: com.ezr.hoopfire.HoopFireWidgetset
 Vaadin-Package-Version: 1
-Built-By: ethanrussell
+Built-By: ezrusse
 Implementation-Vendor-Id: com.ezr
 Build-Jdk: 1.8.0_121
 Created-By: Maven Integration for Eclipse

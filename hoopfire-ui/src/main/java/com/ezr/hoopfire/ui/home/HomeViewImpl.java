@@ -51,13 +51,13 @@ public class HomeViewImpl extends HomeScreenDesign implements HomeView {
 	private void doNavigate(String viewName) {
 		if (viewName.equalsIgnoreCase(HomeViewImpl.VIEW_NAME)) {
 			UI.getCurrent().getNavigator().navigateTo(viewName);
-			showHoopFireScreen() ;
+			showHoopFireScreen();
 		} else if (viewName.equalsIgnoreCase(NbaViewImpl.VIEW_NAME)) {
 			UI.getCurrent().getNavigator().navigateTo(viewName);
 			showNBAScreen();
 		}
 	}
-	
+
 	private void showHoopFireScreen() {
 		this.contentLayout.removeAllComponents();
 		HoopFireViewImpl view = new HoopFireViewImpl();

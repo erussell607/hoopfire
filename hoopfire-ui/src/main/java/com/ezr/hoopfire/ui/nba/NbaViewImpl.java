@@ -12,23 +12,21 @@ public class NbaViewImpl extends NbaDesign implements NbaView {
 		super();
 		initializeView();
 	}
-	
+
 	private void initPageSize() {
-//		ThemeResource resource = new ThemeResource("img/nba_logo_lg_wh.png");
-//		this.nbaLogo.setSource(resource);
-		 
+		// ThemeResource resource = new ThemeResource("img/nba_logo_lg_wh.png");
+		// this.nbaLogo.setSource(resource);
+
 	}
 
 	private void initializeView() {
 		initPageSize();
-		
-		
-		
+
 	}
 
 	@Override
 	public void enter(ViewChangeEvent event) {
-//		presenter.viewEntered(event.getParameters());
+		// presenter.viewEntered(event.getParameters());
 
 	}
 
