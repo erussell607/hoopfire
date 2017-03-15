@@ -5,6 +5,7 @@ import com.vaadin.navigator.ViewChangeListener.ViewChangeEvent;
 public class NbaViewImpl extends NbaDesign implements NbaView {
 
 	private static final long serialVersionUID = 1L;
+	public static final String VIEW_NAME = "nba";
 	NbaPresenter presenter;
 
 	public NbaViewImpl() {

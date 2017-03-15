@@ -6,6 +6,7 @@ import com.vaadin.ui.Button;
 import com.vaadin.ui.CssLayout;
 import com.vaadin.ui.HorizontalLayout;
 import com.vaadin.ui.Image;
+import com.vaadin.ui.Panel;
 import com.vaadin.ui.VerticalLayout;
 import com.vaadin.ui.declarative.Design;
 
@@ -30,6 +31,7 @@ public class HomeScreenDesign extends HorizontalLayout {
 	protected Button about;
 	protected Button admin;
 	protected VerticalLayout contentLayout;
+	protected Panel scroll_panel;
 
 	public HomeScreenDesign() {
 		Design.read(this);
