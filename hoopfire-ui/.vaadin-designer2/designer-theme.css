@@ -981,7 +981,7 @@
  */
 
 .v-vaadin-version:after {
-	content: "8.0.2";
+	content: "8.0.0";
 }
 
 .v-widget {
@@ -2743,12 +2743,12 @@ div.v-layout.v-horizontal.v-widget {
 	background: transparent;
 }
 
-.hoopFiretheme .v-button-borderless:active:not(.v-disabled) {
+.hoopFiretheme .v-button-borderless:active {
 	opacity: 0.7;
 	filter: alpha(opacity=70) ;
 }
 
-.hoopFiretheme .v-button-borderless:active:not(.v-disabled):after {
+.hoopFiretheme .v-button-borderless:active:after {
 	background: transparent;
 }
 
@@ -2768,12 +2768,12 @@ div.v-layout.v-horizontal.v-widget {
 	background: transparent;
 }
 
-.hoopFiretheme .v-button-borderless-colored:active:not(.v-disabled) {
+.hoopFiretheme .v-button-borderless-colored:active {
 	opacity: 0.7;
 	filter: alpha(opacity=70) ;
 }
 
-.hoopFiretheme .v-button-borderless-colored:active:not(.v-disabled):after {
+.hoopFiretheme .v-button-borderless-colored:active:after {
 	background: transparent;
 }
 
@@ -2812,12 +2812,12 @@ div.v-layout.v-horizontal.v-widget {
 	background: transparent;
 }
 
-.hoopFiretheme .v-button-link:active:not(.v-disabled) {
+.hoopFiretheme .v-button-link:active {
 	opacity: 0.7;
 	filter: alpha(opacity=70) ;
 }
 
-.hoopFiretheme .v-button-link:active:not(.v-disabled):after {
+.hoopFiretheme .v-button-link:active:after {
 	background: transparent;
 }
 

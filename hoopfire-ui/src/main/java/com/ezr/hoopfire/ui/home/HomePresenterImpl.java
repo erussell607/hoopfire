@@ -4,7 +4,7 @@ public class HomePresenterImpl implements HomePresenter {
 	private HomeView view;
 
 	public HomePresenterImpl(HomeViewImpl homeView) {
-		this.view = homeView;
+//		this.view = homeView;
 	}
 
 	@Override
