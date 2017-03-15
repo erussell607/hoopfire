@@ -57,7 +57,6 @@ public class HomeViewImpl extends HomeScreenDesign implements ViewDisplay {
 	}
 
 	private void doNavigate(String viewName) {
-
 		// if (viewName.equalsIgnoreCase(HomeViewImpl.VIEW_NAME)) {
 		UI.getCurrent().getNavigator().navigateTo(viewName);
 		// showHoopFireScreen() ;
