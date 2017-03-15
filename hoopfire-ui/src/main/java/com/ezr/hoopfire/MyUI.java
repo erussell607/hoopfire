@@ -5,7 +5,6 @@ import javax.servlet.annotation.WebServlet;
 import com.ezr.hoopfire.ui.home.HomeViewImpl;
 import com.vaadin.annotations.Theme;
 import com.vaadin.annotations.VaadinServletConfiguration;
-import com.vaadin.navigator.Navigator;
 import com.vaadin.server.VaadinRequest;
 import com.vaadin.server.VaadinServlet;
 import com.vaadin.ui.UI;
@@ -19,15 +18,15 @@ public class MyUI extends UI {
 	// CallbackDataProvider<>(query -> service.findAll().stream(),
 	// query -> service.findAll().size());
 
-	HomeViewImpl homeView = new HomeViewImpl();
 	protected static final String MAINVIEW = "main";
 
 	@Override
 	protected void init(VaadinRequest vaadinRequest) {
 		getPage().setTitle("HoopFire");
-		Navigator navigator = new Navigator(UI.getCurrent(), homeView.getContentLayout());
-		homeView = new HomeViewImpl(navigator);
-		setContent(homeView);
+		// Navigator navigator = new Navigator(UI.getCurrent(),
+		// homeView.getScrollPanel());
+		// homeView = new HomeViewImpl(navigator);
+		setContent(new HomeViewImpl());
 
 	}
 

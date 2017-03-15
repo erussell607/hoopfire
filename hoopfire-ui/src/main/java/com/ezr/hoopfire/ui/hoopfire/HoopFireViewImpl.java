@@ -27,7 +27,7 @@ public class HoopFireViewImpl extends HoopFireDesign implements HoopFireView {
 
 	@Override
 	public void enter(ViewChangeEvent event) {
-		presenter.viewEntered(event.getParameters());
+//		presenter.viewEntered(event.getParameters());
 
 	}
 
